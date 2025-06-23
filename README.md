@@ -11,6 +11,21 @@
 - ⭐ **Deployment ready** — deploy like a pro for FREE!  
 - ⏳ And much more!
 
+## Features
+User signup/login with secure JWT tokens
+
+Real-time chat with multiple users using Socket.io
+
+Online users list updating live
+
+Responsive UI styled with TailwindCSS & Daisy UI
+
+Centralized state management using Zustand
+
+Comprehensive error handling and user feedback
+
+Easy environment-based configuration with .env
+
 ---
 
 ## Setup
@@ -28,6 +43,7 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 NODE_ENV=development
 
 
+
 ---
 
 ## Build and Run
@@ -42,19 +58,4 @@ npm run build
 # Start the backend server
 npm start
 
-
-Features
-User signup/login with secure JWT tokens
-
-Real-time chat with multiple users using Socket.io
-
-Online users list updating live
-
-Responsive UI styled with TailwindCSS & Daisy UI
-
-Centralized state management using Zustand
-
-Comprehensive error handling and user feedback
-
-Easy environment-based configuration with .env
 
