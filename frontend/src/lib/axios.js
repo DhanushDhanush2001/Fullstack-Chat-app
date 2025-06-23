@@ -1,6 +1,7 @@
-import axios from 'axios';
-
 export const axiosInstance = axios.create({
-    baseURL: "http://localhost:8000/api",
-    withCredentials : true,
+  baseURL:
+    import.meta.env.MODE === "development"
+      ? "http://localhost:8000/api"
+      : "https://fullstack-chat-app-n871.onrender.com/api",
+  withCredentials: true,
 });
