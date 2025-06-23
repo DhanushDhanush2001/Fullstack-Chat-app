@@ -10,7 +10,7 @@ import { Loader } from "lucide-react";
 import { useAuthStore } from './store/useAuthStore';
 import { Toaster } from "react-hot-toast";
 import { useThemeStore } from './store/useThemeStore';
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 
 const App = () => {
   const {authUser, checkAuth,isCheckingAuth, onlineUsers } = useAuthStore()
